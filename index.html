@@ -2,13 +2,30 @@
     <head>
         <title>Uhh</title>
         <style>
-            .right-aligned-container {
-                text-align: right;
+            
+            .title-plus-link{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 15px;
+                margin-right: 40px;
+                font-family: Arial, Helvetica, sans-serif;
             }
-            .right-aligned-container a 
-            {
+            .title{
+                
+                font-weight: bolder;
+                font-size: 50px;
+            }
+            .links{
+                text-align: right;
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+            .links a {
                 margin-right: 30px;
             }
+
             a:link {
             text-align:right;
             display: inline-block;
@@ -41,12 +58,15 @@
     </head>
     <body>
 
-            Spencer Madden
-            <div class="right-aligned-container">
-            <a href="about.html">About Me</a><a href="about.html">Another Link</a>
+            
+        <div class="title-plus-link">
+            <div class="title">Spencer Madden</div> 
+            <div class="links">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            </div>
         </div>
         
-        <h1 style="text-align:right;"></h1>
         <p>Paragraph</p>
         
     </body>
