@@ -1,57 +1,78 @@
-.title-plus-link{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    margin-right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.intro-box{
-    display: flex;
-    height: 500px;
-    background-color: grey;
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
-}
-.title{
-    
-    font-weight: bolder;
-    font-size: 50px;
-}
-.links{
-    text-align: right;
-    font-size: 20px;
-    font-weight: bold;
+    .title-plus-link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        margin-right: 40px;
+        font-family: Arial, Helvetica, sans-serif;
 
-}
-.links a {
-    margin-right: 30px;
-}
+    }
+    .back-box{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: lightgray;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .centered-me-box{
+        display: flex;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .intro-content{
+        justify-content: left; /* Center vertically */
+        align-items: center; /* Center horizontally */
+    }
+    .intro-content img{
+        justify-content: right; /* Center vertically */
+        align-items: center; /* Center horizontally */
+    }
 
-a:link {
-text-align:right;
-display: inline-block;
-text-decoration: none;
-}
+    .title{
+        
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .links{
+        text-align: right;
+        font-size: 20px;
+        font-weight: bold;
 
-a:visited {
-text-align:right;
-display: inline-block;
-color: black;
-text-decoration: none;
-}
+    }
+    .links a {
+        margin-right: 30px;
+    }
 
-a:hover {
-text-align:right;
-display: inline-block;
-text-decoration: none;
-color: black;
-}
+    a:link {
+    text-align:right;
+    display: inline-block;
+    text-decoration: none;
+    }
 
-a:active {
-text-align:right;
-display: inline-block;
-text-decoration: none;
-color: black;
-}
+    a:visited {
+    text-align:right;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    }
+
+    a:hover {
+    text-align:right;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    }
+
+    a:active {
+    text-align:right;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    }
