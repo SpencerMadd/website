@@ -30,9 +30,11 @@
         justify-content: left; /* Center vertically */
         align-items: center; /* Center horizontally */
     }
-    .intro-content img{
+    .intro-img{
         justify-content: right; /* Center vertically */
         align-items: center; /* Center horizontally */
+        height: 100px;
+        width: 100px;
     }
 
     .title{
