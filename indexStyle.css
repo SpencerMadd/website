@@ -26,13 +26,19 @@
         margin-right: auto;
         
     }
-    .intro-content{
-        justify-content: left; /* Center vertically */
-        align-items: center; /* Center horizontally */
+    .round-image {
+        border-radius: 50%; /* Create a circular shape with a 50% border-radius */
+        width: 200px; /* Set the desired width */
+        height: 200px; /* Set the desired height */
+        object-fit: cover; /* Preserve the image's aspect ratio and cover the container */
     }
-    .intro-img{
+    .intro-content{
         justify-content: right; /* Center vertically */
-        align-items: center; /* Center horizontally */
+        align-items: right; /* Center horizontally */
+    }
+    .intro-content img {
+        justify-content: left; /* Center vertically */
+        align-items: right; /* Center horizontally */
         height: 100px;
         width: 100px;
     }
