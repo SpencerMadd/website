@@ -18,7 +18,7 @@
     }
     .centered-me-box{
         display: flex;
-        height: 100px;
+        height: 400px;
         width: 800px;
         background-color: white;
         margin-top: 400px;
@@ -28,19 +28,21 @@
     }
     .round-image {
         border-radius: 50%; /* Create a circular shape with a 50% border-radius */
-        width: 200px; /* Set the desired width */
-        height: 200px; /* Set the desired height */
+        width: 400px; /* Set the desired width */
+        height: 400px; /* Set the desired height */
         object-fit: cover; /* Preserve the image's aspect ratio and cover the container */
     }
     .intro-content{
-        justify-content: right; /* Center vertically */
-        align-items: right; /* Center horizontally */
+        margin-left: center;
+        justify-content: center;
+        align-items: auto;
     }
-    .intro-content img {
+    .intro-content-img {
         justify-content: left; /* Center vertically */
+        margin-left: 200px;
         align-items: right; /* Center horizontally */
-        height: 100px;
-        width: 100px;
+        height: 400px;
+        width: 400px;
     }
 
     .title{
