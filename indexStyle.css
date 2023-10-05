@@ -36,10 +36,13 @@
 
     }
     .left-title{
-        font-size: 40px;
+        font-size: 45px;
         margin-top: 150px;
         margin-left: 350px;
         justify-content: left;
+    }
+    .left-subtitle{
+        font-size: 25px;
     }
     .right-title{
         font-size: 40px;
