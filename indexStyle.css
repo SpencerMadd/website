@@ -19,6 +19,7 @@
     .progress-container {
         width: 100%;
         border-radius: 5px; /* Round the corners of the container */
+        margin-bottom: 20px;
     }
 
     /* Style the progress bar */
@@ -62,7 +63,7 @@
         justify-content: center;
     }
     .right-subtitle{
-        font-size: 25px;
+        font-size: 20px;
     }
     .right-sub-paragraph{
         font-size: 20px;
