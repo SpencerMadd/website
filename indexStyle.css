@@ -16,13 +16,24 @@
         margin-top: 20px;
         padding: 0;
     }
+    .progress-container {
+        width: 100%;
+        border-radius: 5px; /* Round the corners of the container */
+    }
 
+    /* Style the progress bar */
+    .progress-bar {
+        width: 50%; /* Set the width to represent the progress (e.g., 50% for halfway) */
+        height: 10px;
+        background-color: #4CAF50; /* Set the color of the progress bar */
+        border-radius: 5px; /* Round the corners of the progress bar */
+    }
     .flex-me-container {
         display: flex;
         flex-direction: column; /* Arrange items vertically */
         justify-content: center; /* Center items vertically */
         align-items: center; /* Center items horizontally */
-        height: 200px;
+        height: 250px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 200px;
@@ -38,8 +49,8 @@
     .left-title{
         font-size: 45px;
         margin-top: 150px;
-        margin-left: 350px;
-        justify-content: left;
+        margin-left: 400px;
+        justify-content: center;
     }
     .left-subtitle{
         font-size: 25px;
@@ -47,11 +58,15 @@
     .right-title{
         font-size: 45px;
         margin-top: 150px;
-        margin-right: 400px;
-        justify-content: right;
+        margin-right: 300px;
+        justify-content: center;
     }
     .right-subtitle{
         font-size: 25px;
+    }
+    .right-sub-paragraph{
+        font-size: 20px;
+        margin-bottom: 0px;
     }
     /* Style the title element */
     .name-title {
