@@ -7,11 +7,7 @@
         font-family: Arial, Helvetica, sans-serif;
 
     }
-    .hr {
-        border: none; /* Remove the default border */
-        border-top: 1px solid black; /* Add a 1-pixel solid black top border */
-        margin: 0; /* Remove any margin to make it span the entire width */
-    }
+
     .back-box{
         display: flex;
         height: 600px;
