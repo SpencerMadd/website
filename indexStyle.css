@@ -14,7 +14,7 @@
         align-items: top;
         width: 100%;
         background-color: lightgray;
-        background-image: url('back.jpeg'); /* Set the path to your background image */
+        background-image: url('/Images/back.jpeg'); /* Set the path to your background image */
         background-size: cover;
         background-position: bottom;
         margin: 0;
@@ -135,4 +135,37 @@
     display: inline-block;
     text-decoration: none;
     color: black;
+    }
+
+    .main-project-box{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 100px;
+        margin-left: 10%;
+    }
+    .project-box {
+        width: 100px;
+        background-color: lightgray;
+        margin: 10px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    
+    /* Define the style of the content inside the project boxes */
+    .content {
+        max-height: 10;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        padding: 10px;
+    }
+    
+    /* Expand the project box and reveal the content on hover */
+    .project-box:hover .content {
+        max-height: 100px; /* Adjust the value to the desired height */
+    }
+    
+    /* Change the background color and text color when hovering */
+    .project-box:hover {
+        background-color: #2980b9;
     }
